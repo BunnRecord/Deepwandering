@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  This is my blog made with Zola.
+</h1>
+
+<header>
+  <nav>
+  {% for link in config.extra.d3_nav %}
+    <a href="{{ link.path | safe }}">{{ link.name }}</a>
+  {% endfor %}
+  </nav>
+  <hr>
+</header>
+  
+
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+{% endblock content %}
