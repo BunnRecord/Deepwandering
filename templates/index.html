@@ -6,6 +6,7 @@
 </h1>
 
 <header>
+  <link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
   <nav>
   {% for link in config.extra.d3_nav %}
     <a href="{{ link.path | safe }}">{{ link.name }}</a>

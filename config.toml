@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://deepwandering.pages.dev/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -18,9 +18,9 @@ highlight_code = false
 # Put all your custom variables here
   d3_nav = [
     { name = "HOME", path = "/" },
-    { name = "POSTS", path = "/posts/" },
+    { name = "POSTS", path = "/blog/" },
     { name = "ABOUT", path = "/about/" },
   ]
   d3_icon = "/icon.png"
 #  d3_twitter = "therealFIGBERT"
-#  d3_author = "FIGBERT"
+  d3_author = "PIECK"
