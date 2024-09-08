@@ -1,5 +1,5 @@
 :root {
-  --background-color: #1F1E1E;
+  --background-color: #181717;
   --secondary-color: #214ED4;
   --tertiary-color: #6082E6;
   --text-color: #F5F5F5;
@@ -10,13 +10,13 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   background-color: var(--background-color);
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 1rem 1rem 1rem;
   color: var(--text-color);
   margin-right: auto;
   margin-left: auto;
   line-height: 200%;
   font-weight: 400;
-  max-width: 40rem;
+  max-width: 50rem;
 }
 
 video, picture, img {
