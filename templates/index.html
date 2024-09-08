@@ -15,10 +15,10 @@
   <hr>
 </header> -->
 
-{% set_global note_pages = [] -%}
-{% set_global all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+{% set_global wandering_pages = [] -%}
+{% set_global all_wandering_pages = get_section(path="wandering/_index"~file_lang_path~".md") -%}
 {% for page in section.pages %}
-{% set_global note_pages = pages | sort(attribute="updated") | reverse -%}
+{% set_global wandering_pages = pages | sort(attribute="updated") | reverse -%}
 {% endfor %}
 
 <hr>
@@ -26,29 +26,65 @@
   漫游
 </h2>
 <div class="index-page py">
+{% set index_first = get_page(path="wandering/index_first"~file_lang_path~".md") %}
+{{ index_first.content | safe }}
+<!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
+</div>
 
-  {% set index_first = get_page(path="blog/index_first"~file_lang_path~".md") %}
-  {{ index_first.content | safe }}
-<!-- <p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p> -->
-
+{% set_global resource_pages = [] -%}
+{% set_global all_resource_pages = get_section(path="resource/_index"~file_lang_path~".md") -%}
+{% for page in section.pages %}
+{% set_global resource_pages = pages | sort(attribute="updated") | reverse -%}
+{% endfor %}
 <h2 class="title">
   摘录
 </h2>
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+<div class="index-page py">
+  {% set index_first = get_page(path="resource/resource1"~file_lang_path~".md") %}
+  {{ index_first.content | safe }}
+  <!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
+</div>
 
+{% set_global archives_pages = [] -%}
+{% set_global all_storehouse_pages = get_section(path="archives/_index"~file_lang_path~".md") -%}
+{% for page in section.pages %}
+{% set_global archives_pages = pages | sort(attribute="updated") | reverse -%}
+{% endfor %}
 <h2 class="title">
   随记
 </h2>
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+<div class="index-page py">
+  {% set index_first = get_page(path="archives/thought"~file_lang_path~".md") %}
+  {{ index_first.content | safe }}
+</div>
+<!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
 
+{% set_global storehouse_pages = [] -%}
+{% set_global all_storehouse_pages = get_section(path="storehouse/_index"~file_lang_path~".md") -%}
+{% for page in section.pages %}
+{% set_global storehouse_pages = pages | sort(attribute="updated") | reverse -%}
+{% endfor %}
 <h2 class="title">
   仓库
 </h2>
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+<div class="index-page py">
+  {% set index_first = get_page(path="storehouse/storehouse"~file_lang_path~".md") %}
+  {{ index_first.content | safe }}
+</div>
+<!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
 
+
+{% set_global archives_pages = [] -%}
+{% set_global all_archives_pages = get_section(path="archives/_index"~file_lang_path~".md") -%}
+{% for page in section.pages %}
+{% set_global archives_pages = pages | sort(attribute="updated") | reverse -%}
+{% endfor %}
 <h2 class="title">
   关于
 </h2>
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+<div class="index-page py">
+  {% set index_first = get_page(path="archives/archives_first"~file_lang_path~".md") %}
+  {{ index_first.content | safe }}
+</div>
 
 {% endblock content %}
