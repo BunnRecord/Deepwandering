@@ -3,11 +3,25 @@
 <link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
 
       <article>
+        <a href="{{ config.base_url | safe }}">home</a>
+        <a>
+        <h1><a href="{{ current_url | safe }}">{{ page.title | safe }}</a></h1>
+        <small>
+          发布于 </a>
+          <time datetime="{{ page.date }}">{{ page.date | date(format="%Y.%m.%d") }}</time>
+          {% if page.updated and page.date != page.updated %}
+          , 最后编辑于</a>
+          <time datetime="{{ page.date }}">{{ page.updated | date(format="%Y.%m.%d") }}</time>
+          {% endif %}
+        </small>
+        {{ page.content | safe }}
+      </article>
+      <!-- <article>
         <h1><a href="{{ current_url | safe }}">{{ page.title | safe }}</a></h1>
         <small>
           <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
           by <a href="{{ config.base_url | safe }}">{{ config.extra.d3_author | safe }}</a>
         </small>
         {{ page.content | safe }}
-      </article>
+      </article> -->
 {% endblock content %}

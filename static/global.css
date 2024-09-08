@@ -1,5 +1,5 @@
 :root {
-  --background-color: #181717;
+  --background-color: #312f2f;
   --secondary-color: #214ED4;
   --tertiary-color: #6082E6;
   --text-color: #F5F5F5;
@@ -44,15 +44,23 @@ a:hover {
 }
 
 /* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+  font-size: 3em;
+},
+h2 {
+  font-size: 2.5em;
+},
+h3 {
+  font-size: 2em;
+},
+h4 {
+  font-size: 1.5em;
+},
+h5 {
+  font-size: 1em;
+},
 h6 {
-  margin: 0;
-  font-weight: 700;
-  position: relative;
+  font-size: 0.5em;
 }
 
 h1 > a,

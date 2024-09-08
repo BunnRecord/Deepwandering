@@ -1,20 +1,54 @@
 {% extends "base.html" %}
-
 {% block content %}
+<link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
 <h1 class="title">
   Wandering Pieck
 </h1>
 
-<header>
-  <link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
+<!-- <header>
+
   <nav>
   {% for link in config.extra.d3_nav %}
     <a href="{{ link.path | safe }}">{{ link.name }}</a>
   {% endfor %}
   </nav>
   <hr>
-</header>
-  
+</header> -->
 
+{% set_global note_pages = [] -%}
+{% set_global all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+{% for page in section.pages %}
+{% set_global note_pages = pages | sort(attribute="updated") | reverse -%}
+{% endfor %}
+
+<hr>
+<h2 class="title">
+  漫游
+</h2>
+<div class="index-page py">
+
+  {% set index_first = get_page(path="blog/index_first"~file_lang_path~".md") %}
+  {{ index_first.content | safe }}
+<!-- <p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p> -->
+
+<h2 class="title">
+  摘录
+</h2>
 <p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+
+<h2 class="title">
+  随记
+</h2>
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+
+<h2 class="title">
+  仓库
+</h2>
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+
+<h2 class="title">
+  关于
+</h2>
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+
 {% endblock content %}

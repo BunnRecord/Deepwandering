@@ -6,5 +6,13 @@
   {{ page.title }}
 </h1>
 <p class="subtitle"><strong>{{ page.date }}</strong></p>
+{% if page.date %}
+  {{ trans(key="label_created",lang=lang) }}:&nbsp;
+  <time class="dt-published published" datetime="{{ page.date }}">{{ page.date | date(format="%Y.%m.%d") }}</time>
+{% endif %}
+{% if page.updated and page_date != page_updated %}
+  · {{ trans(key="label_updated",lang=lang) }}:&nbsp;
+  <time class="dt-updated updated" datetime="{{ page.updated }}">{{ page.updated | date(format="%Y.%m.%d") }}</time>
+{% endif %}
 {{ page.content | safe }}
 {% endblock content %}
