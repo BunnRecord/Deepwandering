@@ -1,6 +1,7 @@
 +++
 title = "关于这个博客"
 date = 2024-09-09
+updated = 2024-09-11
 +++
 
 这个博客主要是用来给我的学习和探索找一个输出的地方。
@@ -31,8 +32,8 @@ So wandering , keep wandering .
 
 在 Notion 上有建一个个人知识库，博客上面尽量和本地同步吧，不过一些私人的内容可能会选择性隐藏。
 
-博客是参考 Owen 的 [博客](https://www.owenyoung.com/)，所有内容托管在  github 上的 [这个仓库](https://github.com/BunnRecord/Deepwandering) 里，使用 Zola 生成，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。
+博客是参考 Owen 的 [博客](https://www.owenyoung.com/)，所有内容托管在  github 上的 [这个仓库](https://github.com/BunnRecord/Deepwandering) 里，使用 [Zola](https://www.getzola.org/) 生成，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。
 
-博客目前的搭建也是一个比较初步的状态，现在发现在 content 目录下再新建一个文件夹，里面的文章会链接不到出错哈哈哈，后续再慢慢优化吧，后续的优化会记录在 [这个文档](/project/blogfuncupdate/) 里面。
+博客目前的搭建也是一个比较初步的状态，现在发现在 content 目录下再新建一个文件夹，里面的文章会链接不到出错哈哈哈，后续再慢慢优化吧。后续的优化会记录在 [这个文档](/project/blogfuncupdate/) 里面，内容的更新会参考 [Commits](https://github.com/BunnRecord/Deepwandering/commits/main/) 每周更新统计一次，更新在 [这个文档](/project/blogcontentupdate) 。
 
 2024-09-09 19:06:30
