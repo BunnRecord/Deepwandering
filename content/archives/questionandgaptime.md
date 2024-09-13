@@ -6,15 +6,15 @@ updated = 2024-09-11
 
 ### 想知道答案的问题
 
-> 为什么生产力逐渐提高，而人们工作却没有变得更轻松？  2024-09-11
+> 为什么生产力逐渐提高，而人们工作却没有变得更轻松？  20240911
 
-> 多巴胺是个什么玩意，还有怎么不被多巴胺控制？  2024-09-11
+> 多巴胺是个什么玩意，还有怎么不被多巴胺控制？  20240911
 
-> 大模型中涌现现象产生的原理和结果。[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。    2024-09-11
+> 大模型中涌现现象产生的原理和结果。[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。    20240911
 
-> 以后的小朋友应该怎么学习，或是用什么方式认识这个世界，需要培养什么技能，需要什么教材？[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。    2024-09-11
+> 以后的小朋友应该怎么学习，或是用什么方式认识这个世界，需要培养什么技能，需要什么教材？[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。    20240911
 
-> 大模型像个大脑，大脑现在能力到什么程度了？向上，大模型怎么接入知识库，接入一个什么样的知识库，现在调取知识库的能力到什么程度了？向下，大模型现在可以利用什么工具了，agent可以完成什么工作了？[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。   2024-09-11
+> 大模型像个大脑，大脑现在能力到什么程度了？向上，大模型怎么接入知识库，接入一个什么样的知识库，现在调取知识库的能力到什么程度了？向下，大模型现在可以利用什么工具了，agent可以完成什么工作了？[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。   20240911
 
 ### 放空阶段
 
@@ -27,20 +27,20 @@ updated = 2024-09-11
 
 > 摆脱多巴胺控制，和网络保持一个合适的距离。现在可以完全把手机丢到一边，因为不会有工作消息要处理，我是感觉目前的这些软件，确实，会有一些夺取注意力，让人专注不下来，专注半小时都困难，而且养成习惯，肌肉记忆，被大脑激素控制，之类的。而且沉浸在各种广告之中，消费主义也有一些问题。欲望，也会时刻缠绕。还是要增强对自己的把握能力。
 
-> 待补充。  2024-09-11
+> 待补充。
 
 #### 好处
 > 有一段完整的时间可以沉浸在某件事上。放空开始之后，研究了一段时间龙王家族的历史，然后玩了一段时间荒野大镖客2，然后集中猛读了一堆藤本树的作品，中间还研究了一些进击的巨人相关的东西，后来研究异形的历史，然后就到黑神话悟空，目前到LLM了。我对这一些东西还是很满足的，是我喜欢的东西，我不觉得是浪费时间。但是有一点是，读完没有输出，没有积累，这一点不太行，读了好像没读过。所以开了这个博客，要输出！
 
 > 可以完全把手机丢到一边，没有工作消息。  
 
-> 待补充。  2024-09-11
+> 待补充。
 
 #### 坏处
 > 时间浪费。完全放空，没有升学考试压力、没有工作任务压力之后，整个人松弛下来了，很多时间浪费在刷社交网络、短视频、王者，看了和没看都一样的东西去了，很容易被多巴胺牵制，不受控制而时间飞逝。前段时间开启了日历，记录每天每个小时都在干嘛，把这些浪费的时间记录成红色，发现一周下来，红色的部分特别多，感觉也可以据此去把握自己的时间使用方式。
 
 > 和人接触比较少。也说不清是好处还是坏处，但是就是感觉上班时候和同事还有一些交流，现在交流挺少，接触新鲜事也会少一点，和朋友在网上的交流还好。但是感觉也没有缺太多，我也是一个比较喜欢独处的人。
 
-> 待补充。  2024-09-11
+> 只出不进，看着账单和余额，没有安全感。
 
-- [点击查看全部随记](/archives/thought/)
+> 待补充。
