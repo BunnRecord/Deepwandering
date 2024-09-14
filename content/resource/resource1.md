@@ -1,7 +1,10 @@
 +++
 title = "Excerpt"
 date = 2024-08-30
+updated = 2024-09-14
 +++
+
+> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/booktheworldisee/) 。    20240914
 
 > [OpenAIo1](/resource/openaio1)    20240913
 
