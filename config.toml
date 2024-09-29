@@ -16,11 +16,11 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-  d3_nav = [
+  nav = [
     { name = "HOME", path = "/" },
     { name = "POSTS", path = "/wandering/" },
     { name = "ABOUT", path = "/about/" },
   ]
-  d3_icon = "/icon.png"
-#  d3_twitter = "therealFIGBERT"
-  d3_author = "PIECK"
+  icon = "/icon.png"
+  repo_url = "https://deepwandering.pages.dev/storehouse/storehouse-all/"
+  author = "PIECK"

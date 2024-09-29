@@ -1,7 +1,7 @@
 +++
 title = "视频字幕生成、提取软件部署"
 date = 2024-09-12
-updated = 2024-09-12
+updated = 2024-09-13
 +++
 
 后面可能需要提取一些视频文案，刚好前几天看到一个推荐对视频字幕进行操作的几个仓库（ 字幕生成 [Video Subtitle Generator](https://github.com/YaoFANGUK/video-subtitle-generator)、字幕提取 [Video Subtitle Extractor](https://github.com/YaoFANGUK/video-subtitle-extractor)、字幕去除 [Video Subtitle Remover](https://github.com/YaoFANGUK/video-subtitle-remover/tree/main)），这两天部署了下，踩了些坑，记录一下解决方法。
@@ -14,7 +14,7 @@ updated = 2024-09-12
 后面解决之后继续执行 'python gui.py' 运行图形化界面，后面打开视频是报错还有有些库没装上，然后通过 'pip install xxx' 手动一个个装上就可以了，另外可以在命令后加上 '-i https://pypi.tuna.tsinghua.edu.cn/simple' 加快安装速度。
 
 ## 推理跑在 CPU 上
-![alt text](developnotevideosub1.png)
+![alt text](/project/developnotevideosub1.png)
 现在跑起来字幕生成，发现有显卡一动不动，CPU 占用特别高的情况，在 issue 链接里面看到别人好像也遇到了同样的 [问题](https://github.com/YaoFANGUK/video-subtitle-generator/issues/21)，一会我试试能不能解决。
 
 三条命令重装 torch ，但是好像解决不了问题。
@@ -29,7 +29,7 @@ pip install torch -f https://download.pytorch.org/whl/torch_stable.html
 那个方法解决不了，现在试这个 [方法](https://github.com/YaoFANGUK/video-subtitle-generator/issues/28) 重新安装 [CUDA 和 torch](https://blog.csdn.net/Bellwen/article/details/124734847)
 
 nvidia-smi 查看自己电脑支持 CUDA 的最高版本，（向下兼容？）
-![alt text](developnotevideosub2.png)
+![alt text](/project/developnotevideosub2.png)
 
 > 向下兼容，又称向后兼容（Backwards compatibility），计算机术语。向下兼容常常是相对于向上兼容而言的，两者在兼容的方向性上是相反的，因此这两个概念是不同的。向下兼容（Downward Compatibility），又称作向后兼容（Backward Compatibility）。在计算机中指在一个程序或者类库更新到较新的版本后，用旧的版本程序创建的文档或系统仍能被正常操作或使用，或在旧版本的类库的基础上开发的程序仍能正常编译运行的情况。例如较高档的计算机或较高版本的软件平台可以运行较为低档计算机或早期的软件平台所开发的程序，如基于Pentium微处理器的PC兼容机可以运行早期在486上运行的全部软件。向下兼容可以使用户在进行软件或硬件升级时，厂商不必为新设备或新平台从头开始编制应用程序，以前的程序在新的环境中任然有效。
 
@@ -58,9 +58,9 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp
 安装后使用 CUDA 内置的 deviceQuery.exe 和 bandwidthTest.exe 验证配置是否成功。
 power shell 进入 CUDA 安装目录下的 ...\extras\demo_suite，后分别执行 deviceQuery.exe 和 bandwidthTest.exe ，出现相关显卡信息即配置成功。
 
-![alt text](developnotevideosub3.png)
+![alt text](/project/developnotevideosub3.png)
 
-![alt text](developnotevideosub4.png)
+![alt text](/project/developnotevideosub4.png)
 
 [参考链接](https://blog.csdn.net/anmin8888/article/details/127910084)
 
@@ -69,19 +69,19 @@ pip install 的方式容易安装到 CPU 版本的，尽量选择下载 whl ，�
 一般要按 torch、torchaudio、torchvision 三件套，版本配套参考 [这个链接](https://blog.csdn.net/FengHanI/article/details/135116114) 。
 torch 对应 CUDA 版本、python 版本，whl 文件的含义参考以下。
 
-![alt text](developnotevideosub5.png)
+![alt text](/project/developnotevideosub5.png)
 
 ## paddle 安装
 参考 [官网链接](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html
 )，主要要选对和 CUDA 、cuDNN适配的版本，[参考链接](https://docs.nvidia.com/deeplearning/frameworks/paddle-paddle-release-notes/rel-24-04.html) ，若新的不支持，可以去安装 [旧版本](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html)。
 
-![alt text](developnotevideosub6.png)
+![alt text](/project/developnotevideosub6.png)
 
 ## 特殊情况
 CUDA、cuDNN、torch、paddle，几个版本要适配。
 
 本机 CUDA 使用12.4，可能太高了，paddle还不支持，现在下回项目使用的 11.7 版本的CUDA 。
-![alt text](developnotevideosub7.png)
+![alt text](/project/developnotevideosub7.png)
 
 
 ## 解决库冲突

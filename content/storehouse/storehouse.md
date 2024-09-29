@@ -8,3 +8,4 @@ updated = 2024-09-08
 - [2.漫游（wandering/areas）](/wandering/index-all/)          20240908
 - [3.资源（resource）](/resource/resource-all/)          20240908
 - [4.归档（archives）](/archives/archives-all/)          20240911
+- [点击查看全部仓库](/storehouse/storehouse-all/)

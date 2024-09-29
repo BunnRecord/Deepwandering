@@ -16,7 +16,7 @@ body {
   margin-left: auto;
   line-height: 200%;
   font-weight: 400;
-  max-width: 50rem;
+  max-width: 80rem; /* 或更大，视需求而定 */
 }
 
 video, picture, img {
@@ -44,24 +44,12 @@ a:hover {
 }
 
 /* Headings */
-h1 {
-  font-size: 3em;
-},
-h2 {
-  font-size: 2.5em;
-},
-h3 {
-  font-size: 2em;
-},
-h4 {
-  font-size: 1.5em;
-},
-h5 {
-  font-size: 1em;
-},
-h6 {
-  font-size: 0.5em;
-}
+h1 {  font-size: 3em;}
+h2 {  font-size: 2.5em;}
+h3 {  font-size: 2em;}
+h4 {  font-size: 1.5em;}
+h5 {  font-size: 1em;}
+h6 {  font-size: 0.5em;}
 
 h1 > a,
 h2 > a,
@@ -210,4 +198,204 @@ mark {
 .error > p {
   font-size: 2rem;
   margin: 0;
+}
+
+/* Table of Contents */
+.table-of-contents {
+  position: fixed;
+  left: calc(50% - 650px); /* 保持这个值，或根据需要微调 */
+  top: 100px;
+  width: 150px; /* 减小宽度 */
+  background-color: var(--background-color);
+  border: 1px solid var(--tertiary-color);
+  padding: 10px 5px; /* 减小左右内边距 */
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.table-of-contents h2 {
+  margin-top: 0;
+  font-size: 1em; /* 减小标题字体大小 */
+  margin-bottom: 10px; /* 添加底部边距 */
+  margin-bottom: 1em; /* 增加标题下方的间距 */
+  text-align: left; /* 确保标题左对齐 */
+}
+
+.table-of-contents ul {
+  padding-left: 0; /* 移除左侧填充，实现完全左对齐 */
+  list-style-type: none;
+  margin: 0; /* 移除默认边距 */
+}
+
+.table-of-contents li {
+  margin-bottom: 2px; /* 进一步减小项目间距 */
+  font-size: 0.8em; /* 减小字体大小 */
+  line-height: 1.2; /* 缩小行高 */
+}
+
+.table-of-contents li.spacer {
+  height: 5px; /* 减小间隔高度 */
+}
+
+.table-of-contents a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.table-of-contents a:hover {
+  text-decoration: underline;
+}
+
+/* 调整文章内容的布局 */
+.article-with-toc {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+  padding-left: calc(50% - 650px);; /* 减小左侧填充以匹配缩小的目录 */
+}
+
+/* 响应式设计：在小屏幕上隐藏目录 */
+@media (max-width: 1200px) {
+  .table-of-contents {
+    display: none;
+  }
+  
+  .article-with-toc {
+    padding-left: 0;
+    max-width: 50rem;
+  }
+}
+
+.excerpt-details {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 1.2em; /* 增加整体字体大小 */
+}
+
+.excerpt-details summary {
+  list-style: none; /* 移除默认的列表样式 */
+  cursor: pointer;
+  padding: 15px; /* 增加内边距 */
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 1.3em; /* 标题字体稍大 */
+  font-weight: bold; /* 加粗标题 */
+}
+
+.excerpt-details summary:hover {
+  background-color: var(--hover-color);
+}
+
+.excerpt-details[open] summary {
+  border-bottom: none;
+}
+
+.excerpt-details .index-page {
+  padding: 20px; /* 增加内容区域的内边距 */
+  line-height: 1.6; /* 增加行高，提高可读性 */
+}
+
+.excerpt-details summary::marker,
+.excerpt-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.excerpt-details summary::before {
+  content: '▼'; /* 使用自定义的折叠符号 */
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.3s;
+}
+
+.excerpt-details:not([open]) summary::before {
+  transform: rotate(-90deg); /* 当折叠时旋转符号 */
+}
+
+/* 可以针对摘录内容添加特定样式 */
+.excerpt-details .index-page p {
+  margin-bottom: 15px; /* 增加段落间距 */
+}
+
+.excerpt-details .index-page a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.excerpt-details .index-page a:hover {
+  color: var(--link-hover-color);
+}
+
+#page-nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
+  z-index: 1000;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+#page-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#page-nav li {
+  margin: 0 15px;
+}
+
+#page-nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+#page-nav a:hover,
+#page-nav a.active {
+  color: var(--link-color);
+}
+
+.title {
+  scroll-margin-top: 60px; /* 确保滚动到标题时，标题不会被导航栏遮挡 */
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: var(--primary-color, #333);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  z-index: 1000;
+}
+
+#back-to-top:hover {
+  opacity: 1;
+}
+
+.image-container {
+  text-align: center;
+  margin-left: 0;
+}
+
+.image-container img {
+  width: 40%;
+  height: auto;
+}
+
+.image-caption {
+  font-style: italic;
+  color: #666;
+  margin-top: 5px;
 }

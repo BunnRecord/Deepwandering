@@ -2,26 +2,51 @@
 {% block content %}
 <link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
 
-      <article>
-        <!-- <a href="{{ config.base_url | safe }}">home</a> -->
-        <a>
-        <h1><a href="{{ current_url | safe }}">{{ page.title | safe }}</a></h1>
-        <small>
-          发布于 </a>
-          <time datetime="{{ page.date }}">{{ page.date | date(format="%Y.%m.%d") }}</time>
-          {% if page.updated and page.date != page.updated %}
-          , 最后编辑于</a>
-          <time datetime="{{ page.date }}">{{ page.updated | date(format="%Y.%m.%d") }}</time>
-          {% endif %}
-        </small>
-        {{ page.content | safe }}
-      </article>
-      <!-- <article>
-        <h1><a href="{{ current_url | safe }}">{{ page.title | safe }}</a></h1>
-        <small>
-          <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
-          by <a href="{{ config.base_url | safe }}">{{ config.extra.d3_author | safe }}</a>
-        </small>
-        {{ page.content | safe }}
-      </article> -->
+<div class="content-wrapper">
+  {% if page.toc %}
+  <!-- 左侧快速导航模块 -->
+  <nav class="table-of-contents">  
+    <ul>
+    {% for h1 in page.toc %}
+      <li><a href="{{ h1.permalink | safe }}">{{ h1.title }}</a></li>
+      {% if not loop.last %}<li class="spacer"></li>{% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
+
+  <article class="article-with-toc">
+    <h1><a href="{{ current_url | safe }}">{{ page.title | safe }}</a></h1>
+    <!-- 其他文章内容 -->
+    {{ page.content | safe }}
+  </article>
+</div>
+
+<!-- 添加回到顶部按钮 -->
+<button id="back-to-top" title="回到顶部">↑</button>
+
+<script>
+// 添加回到顶部功能
+document.addEventListener('DOMContentLoaded', function() {
+  const backToTopButton = document.getElementById("back-to-top");
+
+  // 当用户滚动超过 300px 时显示按钮
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  });
+
+  // 点击按钮时回到顶部
+  backToTopButton.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
 {% endblock content %}

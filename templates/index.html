@@ -5,86 +5,81 @@
   Wandering Pieck
 </h1>
 
-<!-- <header>
-
-  <nav>
-  {% for link in config.extra.d3_nav %}
-    <a href="{{ link.path | safe }}">{{ link.name }}</a>
-  {% endfor %}
-  </nav>
-  <hr>
-</header> -->
-
-{% set_global wandering_pages = [] -%}
-{% set_global all_wandering_pages = get_section(path="wandering/_index"~file_lang_path~".md") -%}
-{% for page in section.pages %}
-{% set_global wandering_pages = pages | sort(attribute="updated") | reverse -%}
-{% endfor %}
+<!-- 添加导航栏 -->
+<nav id="page-nav">
+  <ul>
+    <li><a href="#wandering">漫游</a></li>
+    <li><a href="#excerpt">摘录</a></li>
+    <li><a href="#notes">随记</a></li>
+    <li><a href="#repository">仓库</a></li>
+    <li><a href="#about">关于</a></li>
+  </ul>
+</nav>
 
 <hr>
-<h2 class="title">
-  漫游
-</h2>
+
+<!-- 漫游部分 -->
+<h2 id="wandering" class="title">漫游</h2>
 <div class="index-page py">
-{% set index_first = get_page(path="wandering/index_first"~file_lang_path~".md") %}
-{{ index_first.content | safe }}
-<!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
+  {% set index_first = get_page(path="wandering/index_first"~file_lang_path~".md") %}
+  {{ index_first.content | safe }}
 </div>
 
-{% set_global resource_pages = [] -%}
-{% set_global all_resource_pages = get_section(path="resource/_index"~file_lang_path~".md") -%}
-{% for page in section.pages %}
-{% set_global resource_pages = pages | sort(attribute="updated") | reverse -%}
-{% endfor %}
-<h2 class="title">
-  摘录
-</h2>
+<!-- 摘录部分 -->
+<h2 id="excerpt" class="title">摘录</h2>
 <div class="index-page py">
   {% set index_first = get_page(path="resource/resource1"~file_lang_path~".md") %}
   {{ index_first.content | safe }}
-  <!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
 </div>
 
-{% set_global archives_pages = [] -%}
-{% set_global all_storehouse_pages = get_section(path="archives/_index"~file_lang_path~".md") -%}
-{% for page in section.pages %}
-{% set_global archives_pages = pages | sort(attribute="updated") | reverse -%}
-{% endfor %}
-<h2 class="title">
-  随记
-</h2>
+<!-- 随记部分 -->
+<h2 id="notes" class="title">随记</h2>
 <div class="index-page py">
   {% set index_first = get_page(path="archives/thought"~file_lang_path~".md") %}
   {{ index_first.content | safe }}
 </div>
-<!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
 
-{% set_global storehouse_pages = [] -%}
-{% set_global all_storehouse_pages = get_section(path="storehouse/_index"~file_lang_path~".md") -%}
-{% for page in section.pages %}
-{% set_global storehouse_pages = pages | sort(attribute="updated") | reverse -%}
-{% endfor %}
-<h2 class="title">
-  仓库
-</h2>
+<!-- 仓库部分 -->
+<h2 id="repository" class="title">仓库</h2>
 <div class="index-page py">
   {% set index_first = get_page(path="storehouse/storehouse"~file_lang_path~".md") %}
   {{ index_first.content | safe }}
 </div>
-<!-- <p><a href="{{ get_url(path='@/wandering/_index.md') }}">Posts</a>.</p> -->
 
-
-{% set_global archives_pages = [] -%}
-{% set_global all_archives_pages = get_section(path="archives/_index"~file_lang_path~".md") -%}
-{% for page in section.pages %}
-{% set_global archives_pages = pages | sort(attribute="updated") | reverse -%}
-{% endfor %}
-<h2 class="title">
-  关于
-</h2>
+<!-- 关于部分 -->
+<h2 id="about" class="title">关于</h2>
 <div class="index-page py">
   {% set index_first = get_page(path="archives/archives_first"~file_lang_path~".md") %}
   {{ index_first.content | safe }}
 </div>
+
+<script>
+// 现有的 JavaScript 代码保持不变
+
+// 添加回到顶部功能
+document.addEventListener('DOMContentLoaded', function() {
+  const backToTopButton = document.getElementById("back-to-top");
+
+  // 当用户滚动超过 300px 时显示按钮
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  });
+
+  // 点击按钮时回到顶部
+  backToTopButton.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
+<!-- 在 </body> 标签之前添加这行 -->
+<button id="back-to-top" title="回到顶部">↑</button>
 
 {% endblock content %}

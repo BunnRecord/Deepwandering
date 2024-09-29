@@ -41,7 +41,10 @@ updated = 2024-09-14
 
 > 发现了一本看起来好像挺好玩的书，[小狗疑心大宇宙阴谋篡夺它的位置](https://book.douban.com/subject/37021133/)。   20240910
 
-<!-- ![alt text](image.png) -->
+<figure class="image-container">
+  <img src="/resource/resource1_1.png" alt="小狗疑心大宇宙阴谋篡夺它的位置" />
+  <figcaption class="image-caption">小狗疑心大宇宙阴谋篡夺它的位置</figcaption>
+</figure>
 
 > [0day](https://einverne.github.io/post/2015/05/what-is-0day-and-what-is-pt.html) 服务器，看起来好像是个资源站，人人影视最开始获取最新资源的地方，顺着搜索到了 [topsite](https://en.wikipedia.org/wiki/Topsite)。source：人人影视的 [B 站视频](https://www.bilibili.com/video/BV1eKpxe5EBe/?spm_id_from=333.1365.list.card_archive.click&vd_source=174b189b0a6353093f9f16b62575a061)。
 
