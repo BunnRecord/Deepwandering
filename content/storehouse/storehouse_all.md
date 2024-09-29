@@ -22,7 +22,7 @@ updated = 2024-09-29
 - [资源1](/resource/resource1/)          20240831
 
 ## 4.归档
-- [正反馈](/archives/goodthings.md)     20240913
+- [正反馈](/archives/goodthings)     20240913
 - [想知道答案的问题和放空阶段](/archives/questionandgaptime)        20240911
 - [随记](/archives/thought/)          20240910
 - [关于这个博客](/project/about-this-blog)        20240909
