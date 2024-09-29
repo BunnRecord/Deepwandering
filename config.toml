@@ -23,4 +23,5 @@ highlight_code = false
   ]
   icon = "/icon.png"
   repo_url = "https://deepwandering.pages.dev/storehouse/storehouse-all/"
+  repo_test_url = "http://127.0.0.1:1024/storehouse/storehouse-all/"
   author = "PIECK"

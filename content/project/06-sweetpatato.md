@@ -33,6 +33,8 @@ updated = 2024-09-30
 
 ## 相关资料
 
+> RSS 相关。[source1](https://mp.weixin.qq.com/s/jqj932vmXpicprIJ86Zzvg)，[source2](https://mp.weixin.qq.com/s/aYFDP4fmGKc048uQ_noz9g)。
+
 > "这些例子展示的是我如何实际利用大型语言模型（LLMs）的。它们并不旨在炫耀技术的惊人能力，而是基于我解决工作需求的实际情况。"    [source](https://mp.weixin.qq.com/s/E5mB2ktR7riZ55wBNAwP1A)
 
 > NotebookLM 可能触及一个全新的领域，个人理解是针对每个人的个性化定制信息处理输入流。我也有点这种感觉，有可能。[source1](https://x.com/karpathy/status/1840137252686704925) ，[source2](https://mp.weixin.qq.com/s/1hqyb8SFBNVzrMkG8X1QEw) ，[source3](https://x.com/perplexity_ai/status/1834672028982690298) 。
