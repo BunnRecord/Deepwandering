@@ -4,7 +4,7 @@ date = 2024-08-30
 updated = 2024-09-14
 +++
 
-> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/booktheworldisee/) 。    20240914
+> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/book-the-world-i-see/) 。    20240914
 
 > [OpenAIo1](/resource/openaio1)    20240913
 
@@ -42,7 +42,7 @@ updated = 2024-09-14
 > 发现了一本看起来好像挺好玩的书，[小狗疑心大宇宙阴谋篡夺它的位置](https://book.douban.com/subject/37021133/)。   20240910
 
 <figure class="image-container">
-  <img src="/resource/resource1_1.png" alt="小狗疑心大宇宙阴谋篡夺它的位置" />
+  <img src="/resource/resource_1.png" alt="小狗疑心大宇宙阴谋篡夺它的位置" />
   <figcaption class="image-caption">小狗疑心大宇宙阴谋篡夺它的位置</figcaption>
 </figure>
 

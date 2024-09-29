@@ -33,7 +33,7 @@ updated = 2024-09-13
   [7] V-STaR: https://arxiv.org/abs/2402.06457
 
 - [量子位](https://mp.weixin.qq.com/s/dnIGPzGup6d1CXB-UW99WQ)   
-  o1思考起来是什么样子？可以从[官网示例 Chain of Thought](https://openai.com/index/learning-to-reason-with-llms/)中的编写Bash脚本的编程任务一窥究竟。
+  o1思考起来是什么样子？可以从[官网示例 Chain of 02-thought](https://openai.com/index/learning-to-reason-with-llms/)中的编写Bash脚本的编程任务一窥究竟。
 
 
 

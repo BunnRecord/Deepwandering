@@ -14,13 +14,16 @@ updated = 2024-09-13
 后面解决之后继续执行 'python gui.py' 运行图形化界面，后面打开视频是报错还有有些库没装上，然后通过 'pip install xxx' 手动一个个装上就可以了，另外可以在命令后加上 '-i https://pypi.tuna.tsinghua.edu.cn/simple' 加快安装速度。
 
 ## 推理跑在 CPU 上
-![alt text](/project/developnotevideosub1.png)
+![alt text](/project/04-develop-note-video-sub1.png)
 现在跑起来字幕生成，发现有显卡一动不动，CPU 占用特别高的情况，在 issue 链接里面看到别人好像也遇到了同样的 [问题](https://github.com/YaoFANGUK/video-subtitle-generator/issues/21)，一会我试试能不能解决。
 
 三条命令重装 torch ，但是好像解决不了问题。
+
+```
 pip uninstall torch
 pip cache purge
 pip install torch -f https://download.pytorch.org/whl/torch_stable.html
+```
 
 用 CPU 跑，12 分钟视频，300 行字幕，跑了 2779s。
 
@@ -29,7 +32,7 @@ pip install torch -f https://download.pytorch.org/whl/torch_stable.html
 那个方法解决不了，现在试这个 [方法](https://github.com/YaoFANGUK/video-subtitle-generator/issues/28) 重新安装 [CUDA 和 torch](https://blog.csdn.net/Bellwen/article/details/124734847)
 
 nvidia-smi 查看自己电脑支持 CUDA 的最高版本，（向下兼容？）
-![alt text](/project/developnotevideosub2.png)
+![alt text](/project/04-develop-note-video-sub2.png)
 
 > 向下兼容，又称向后兼容（Backwards compatibility），计算机术语。向下兼容常常是相对于向上兼容而言的，两者在兼容的方向性上是相反的，因此这两个概念是不同的。向下兼容（Downward Compatibility），又称作向后兼容（Backward Compatibility）。在计算机中指在一个程序或者类库更新到较新的版本后，用旧的版本程序创建的文档或系统仍能被正常操作或使用，或在旧版本的类库的基础上开发的程序仍能正常编译运行的情况。例如较高档的计算机或较高版本的软件平台可以运行较为低档计算机或早期的软件平台所开发的程序，如基于Pentium微处理器的PC兼容机可以运行早期在486上运行的全部软件。向下兼容可以使用户在进行软件或硬件升级时，厂商不必为新设备或新平台从头开始编制应用程序，以前的程序在新的环境中任然有效。
 
@@ -47,6 +50,7 @@ nvidia-smi 查看显卡支持的 CUDA 版本。
 
 添加环境变量（修改对应地址和版本）
 
+```
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
 
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include
@@ -54,13 +58,14 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib
 
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp
+```
 
 安装后使用 CUDA 内置的 deviceQuery.exe 和 bandwidthTest.exe 验证配置是否成功。
 power shell 进入 CUDA 安装目录下的 ...\extras\demo_suite，后分别执行 deviceQuery.exe 和 bandwidthTest.exe ，出现相关显卡信息即配置成功。
 
-![alt text](/project/developnotevideosub3.png)
+![alt text](/project/04-develop-note-video-sub3.png)
 
-![alt text](/project/developnotevideosub4.png)
+![alt text](/project/04-develop-note-video-sub4.png)
 
 [参考链接](https://blog.csdn.net/anmin8888/article/details/127910084)
 
@@ -69,24 +74,24 @@ pip install 的方式容易安装到 CPU 版本的，尽量选择下载 whl ，�
 一般要按 torch、torchaudio、torchvision 三件套，版本配套参考 [这个链接](https://blog.csdn.net/FengHanI/article/details/135116114) 。
 torch 对应 CUDA 版本、python 版本，whl 文件的含义参考以下。
 
-![alt text](/project/developnotevideosub5.png)
+![alt text](/project/04-develop-note-video-sub5.png)
 
 ## paddle 安装
 参考 [官网链接](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html
 )，主要要选对和 CUDA 、cuDNN适配的版本，[参考链接](https://docs.nvidia.com/deeplearning/frameworks/paddle-paddle-release-notes/rel-24-04.html) ，若新的不支持，可以去安装 [旧版本](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html)。
 
-![alt text](/project/developnotevideosub6.png)
+![alt text](/project/04-develop-note-video-sub6.png)
 
 ## 特殊情况
 CUDA、cuDNN、torch、paddle，几个版本要适配。
 
 本机 CUDA 使用12.4，可能太高了，paddle还不支持，现在下回项目使用的 11.7 版本的CUDA 。
-![alt text](/project/developnotevideosub7.png)
+![alt text](/project/04-develop-note-video-sub7.png)
 
 
 ## 解决库冲突
 pip check 检查装的库有没有冲突。
-冲突按照命令行里的提示处理，一般 pip uninstall xxx 删除某库，再 pip install XXX==版本号 安装某库，就可以解决大部分冲突。
+冲突按照命令行里的提示处理，一般 `pip uninstall xxx` 删除某库，再 `pip install XXX==版本号` 安装某库，就可以解决大部分冲突。
 
 
 
@@ -96,26 +101,34 @@ pip check 检查装的库有没有冲突。
 
 而有个numpy的问题会影响，导致程序运行不下去。
 
+```
 module 'numpy' has no attribute 'int'. np.int was a deprecated alias for the builtin int. To avoid this error in existing code, use int by itself. Doing this will not modify any behavior and is safe. When replacing np.int, you may wish to use e.g. np.int64 or np.int32 to specify the precision. If you wish to review your current use, check the release note link for additional information.
 The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+```
 这个错误是由于 np.int 在 NumPy 1.20 中被弃用，并且在更新后的版本中完全移除了。为了修复这个问题并避免使用弃用的别名，你可以按照以下建议进行更改：
 
 示例：
 假设你原来的代码中有类似以下的代码片段：
 
+```
 python
 Copy code
 my_array = np.array([1, 2, 3], dtype=np.int)
+```
 
 你可以将它修改为：
 
+```
 python
 Copy code
 my_array = np.array([1, 2, 3], dtype=int)  # 使用内置的 int
+```
 
 
 
 ## 识别 GPU
+
+```
 Running Verify Fluid Program ...
 W0913 07:35:22.368964 23832 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 12.4, Runtime API Version: 11.7
 W0913 07:35:22.374960 23832 gpu_resources.cc:91] device: 0, cuDNN Version: 8.2.
@@ -123,6 +136,7 @@ Your Paddle Fluid works well on SINGLE GPU or CPU.
 Your Paddle Fluid works well on MUTIPLE GPU or CPU.
 Your Paddle Fluid is installed successfully! Let's start deep Learning with Paddle Fluid now
 1536 864
+```
 
 为什么我的GPU没有被识别出来？
 
@@ -168,6 +182,7 @@ Your Paddle Fluid is installed successfully! Let's start deep Learning with Padd
 
 ## 代理引起的 pip install 错误
 
+```
 return ssl_context.wrap_socket(sock)
 
 File "C:\Users\ghost\miniconda3\lib\ssl.py", line 500, in wrap_socket
@@ -178,6 +193,7 @@ return self.sslsocket_class._create
 raise ValueError("check_hostname requires server_hostname"))
 
 ValueError: check_hostname requires server_hostname
+```
 
 应该是开了代理，进行 pip install 遇到的错误，下次再遇到就问问 GPT 解掉。
 
@@ -192,6 +208,8 @@ ValueError: check_hostname requires server_hostname
 
 
 ## 命令
+
+```
 pip install filesplit==3.0.2
 
 pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -208,6 +226,7 @@ pip cache purge
 
 pip install torch -f https://download.pytorch.org/whl/torch_stable.html
 
+```
 
 ## 参考链接
 [链接1](https://blog.csdn.net/Bellwen/article/details/124734847)

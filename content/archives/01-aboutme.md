@@ -7,5 +7,6 @@ date = 2024-08-31
 
 联系我：
 - 邮箱：ghosting0942@gmail.com
+- 推特：[@pieck](https://x.com/ghost95398)
 - Telegram：[pieck](https://t.me/ghosting42)
 - 微信：通过 Telegram 加

@@ -4,8 +4,7 @@ date = 2024-08-31
 updated = 2024-09-29
 +++
 
-- [博客相关](/wandering/03zolablog/)     20240929
 - [Cursor](/wandering/02cursor/)     20240929
-- [LLM 原理](/wandering/01llm/)     20240912
+- [LLM](/wandering/01llm/)     20240912
 - [漫游 01](/wandering/example01wandering/)          20240831
 - [点击查看全部文章](/wandering/index-all/)
