@@ -5,6 +5,23 @@ updated = 2024-09-29
 
 +++
 
+## 发布时间显示
+
+```
+  <article class="article-with-toc">
+    <h1><a href="{{ current_url | safe }}">{{ page.title | safe }}</a></h1>
+      <small>
+        发布于 </a>
+        <time datetime="{{ page.date }}">{{ page.date | date(format="%Y.%m.%d") }}</time>
+        {% if page.updated and page.date != page.updated %}, 
+        最后编辑于</a>
+        <time datetime="{{ page.date }}">{{ page.updated | date(format="%Y.%m.%d") }}</time>
+        {% endif %}
+      </small>
+    {{ page.content | safe }}
+  </article>
+```
+
 ## 图片显示
 目前图片显示有两种的方式：直接 markdown 插入和通过 html 和 css 的组合插入。
 

@@ -1,12 +1,16 @@
 +++
 title = "摘录"
 date = 2024-08-30
-updated = 2024-09-14
+updated = 2024-09-29
 +++
 
-> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/03-book-the-world-i-see/) 。    20240914
+> NotebookLM 可能触及一个全新的领域，个人理解是针对每个人的个性化定制信息处理输入流。我也有点这种感觉，有可能。[source1](https://x.com/karpathy/status/1840137252686704925) ，[source2](https://mp.weixin.qq.com/s/1hqyb8SFBNVzrMkG8X1QEw) ，[source3](https://x.com/perplexity_ai/status/1834672028982690298) 。
 
-> [OpenAIo1](/resource/02-openaio1)    20240913
+> [CSS 在文字链接悬停时显示图片](https://geek-docs.com/css/css-ask-answer/59_css_display_image_on_text_link_hover_css_only.html#:~:text=CSS%E7%9A%84:h)。   20240929
+
+> 企业微信新向服务商开放会话内容存档[三方接口](https://developer.work.weixin.qq.com/document/path/91201)。微信企业号的功能开发。几种协议：windows hook 协议，iPad 协议，微信网页协议。[source](https://x.com/OwenYoungZh/status/1815733196023382455) 。
+
+> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/03-book-the-world-i-see/) 。    20240914
 
 > Ilya 2018 年在 MIT 的 [讲座](https://www.bilibili.com/video/BV1wb4y1M7iY/?spm_id_from=333.880.my_history.page.click) 让人收获不少，提及了强化学习 RL ，元学习（没太理解），自我对弈 Self-Play，如今 Self-Play 在 O1 模型上可能有了一定的使用，用来提升推理能力。看到其中提到通过 Self-Play 用 5 个月左右成为 Dota 世界冠军的例子，感觉这样的模型一旦开始运作，超越人类是指日可待，但就看能在哪些领域中实现超越。而且 Ilya 的语气让我感觉他是非常确信会有超越人类的计算机系统出现的，只是时间问题，而我现在也相信在两年或五年内会有大突破，会有大改变，现在就在保证当下的基本生活的情况下，多考虑怎么连接上那个即将到来的将来吧。另外算力和能源可能是一个限制，看到 OpenAI 准备搞芯片的消息，应该就是为了突破这层做准备吧，找一天了解训练能耗，模型价格，现在各家的显卡拥有量。
 
