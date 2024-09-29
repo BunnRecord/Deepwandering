@@ -12,14 +12,13 @@ updated = 2024-09-29
 - [博客框架更新](/project/01-blog-func-update/)          2024-09-08
 
 ## 2.漫游
-- [Cursor](/wandering/02cursor/)     20240929
-- [LLM](/wandering/01llm/)     20240912
-- [漫游01](/wandering/example01wandering/)      20240831
+- [Cursor](/wandering/02-cursor/)     20240929
+- [LLM](/wandering/01-llm/)     20240912
 
 ## 3.资源
-- [《我看见的世界》摘录](/resource/book-the-world-i-see/)    20240914
-- [OpenAIo1](/resource/openaio1)        20240913
-- [资源1](/resource/resource/)          20240831
+- [《我看见的世界》摘录](/resource/03-book-the-world-i-see/)    20240914
+- [OpenAIo1](/resource/02-openaio1)        20240913
+- [摘录](/resource/01-excerpt/)          20240831
 
 ## 4.归档
 - [正反馈](/archives/04-goodthings)     20240913

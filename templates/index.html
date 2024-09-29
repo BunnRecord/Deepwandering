@@ -28,7 +28,7 @@
 <!-- 摘录部分 -->
 <h2 id="excerpt" class="title">摘录</h2>
 <div class="index-page py">
-  {% set index_first = get_page(path="resource/resource"~file_lang_path~".md") %}
+  {% set index_first = get_page(path="resource/01-excerpt"~file_lang_path~".md") %}
   {{ index_first.content | safe }}
 </div>
 

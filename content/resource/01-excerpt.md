@@ -1,12 +1,12 @@
 +++
-title = "Excerpt"
+title = "摘录"
 date = 2024-08-30
 updated = 2024-09-14
 +++
 
-> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/book-the-world-i-see/) 。    20240914
+> 看 Ilya 的 [访谈](https：//www.bilibili.com/video/BV12N411J7MY/？spm_id_from=333.880.my_history.page.click) 之后重新翻看了下李飞飞自传《[我看见的世界](https://book.douban.com/subject/36672955/)》，摘录了下，记录了下 [感想](/resource/03-book-the-world-i-see/) 。    20240914
 
-> [OpenAIo1](/resource/openaio1)    20240913
+> [OpenAIo1](/resource/02-openaio1)    20240913
 
 > Ilya 2018 年在 MIT 的 [讲座](https://www.bilibili.com/video/BV1wb4y1M7iY/?spm_id_from=333.880.my_history.page.click) 让人收获不少，提及了强化学习 RL ，元学习（没太理解），自我对弈 Self-Play，如今 Self-Play 在 O1 模型上可能有了一定的使用，用来提升推理能力。看到其中提到通过 Self-Play 用 5 个月左右成为 Dota 世界冠军的例子，感觉这样的模型一旦开始运作，超越人类是指日可待，但就看能在哪些领域中实现超越。而且 Ilya 的语气让我感觉他是非常确信会有超越人类的计算机系统出现的，只是时间问题，而我现在也相信在两年或五年内会有大突破，会有大改变，现在就在保证当下的基本生活的情况下，多考虑怎么连接上那个即将到来的将来吧。另外算力和能源可能是一个限制，看到 OpenAI 准备搞芯片的消息，应该就是为了突破这层做准备吧，找一天了解训练能耗，模型价格，现在各家的显卡拥有量。
 
@@ -42,7 +42,7 @@ updated = 2024-09-14
 > 发现了一本看起来好像挺好玩的书，[小狗疑心大宇宙阴谋篡夺它的位置](https://book.douban.com/subject/37021133/)。   20240910
 
 <figure class="image-container">
-  <img src="/resource/resource_1.png" alt="小狗疑心大宇宙阴谋篡夺它的位置" />
+  <img src="/resource/01-excerpt1.png" alt="小狗疑心大宇宙阴谋篡夺它的位置" />
   <figcaption class="image-caption">小狗疑心大宇宙阴谋篡夺它的位置</figcaption>
 </figure>
 

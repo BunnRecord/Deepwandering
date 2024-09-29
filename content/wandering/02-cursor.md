@@ -19,9 +19,9 @@ updated = 2024-09-29
 
 > Cursor 的代码补全，会学习用户代码，然后给出补全建议。实在太舒服了！！！
 
-![Cursor 的代码补全，会学习用户代码，然后给出补全建议](/wandering/02cursor1.png)
+![Cursor 的代码补全，会学习用户代码，然后给出补全建议](/wandering/02-cursor1.png)
 
-![Cursor 的代码补全，会学习用户代码，然后给出补全建议](/wandering/02cursor2.png)
+![Cursor 的代码补全，会学习用户代码，然后给出补全建议](/wandering/02-cursor2.png)
 
 
 
