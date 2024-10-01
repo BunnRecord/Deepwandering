@@ -4,6 +4,20 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
+> [小米IoT开发者平台](https://iot.mi.com/v2/new/doc/plugin/quickstart/quick-start)、[XiaoAi](https://xiaoai.mi.com/) 。  20241001
+
+> 1.大模型各行业只做知识库、问答没有用，要深入行业内部，摸通行业内部的信息流动，对应执行智能化操作，类似 Agent 的感觉。但是感觉还是要从一个更高维度，去看大模型的这些功能与行业结合，能怎么增效。
+> 
+> 2.钉钉 To B 在行业中有很大前景，深入办公，拥有客户的数据，更方便探索。
+> 
+> 3.各行业要先理清公司本身内部的数据信息整理，需求文档整理，代码版本仓管理，等等。
+> 
+> 4.安全性，这个很复杂，留给大公司去做吧。做一些创意类的总结，信息的归纳，教育教材的创新，原理的总结整理，风险会不那么大。
+> 
+> 5.3到5年，推荐方向。具身智能；行业优秀高质量的数据集，与行业特征和数据的积累有关；个人助理、数字员工，减轻机械重复工作，每周工作四天，“把人之所以为人的这些思考和创造性可以发挥到更大，人的才华的巨大的解放。”；文本语音视觉自然融合的多模态大模型，能达到普通人水平；跨领域，大模型功能，与组织管理、组织行为网络、组织效率和创新力去结合；数字人成为组织里面的一个核心的组成部分，数字人和物理人形成开发灵活的工作生态。
+> 
+> [外滩大会2024圆桌讨论](https://www.bilibili.com/video/BV1cX4BeKEpQ/?spm_id_from=333.1365.top_right_bar_window_history.content.click&vd_source=174b189b0a6353093f9f16b62575a061)。 20240930
+
 > NotebookLM 可能触及一个全新的领域，个人理解是针对每个人的个性化定制信息处理输入流。我也有点这种感觉，有可能。[source1](https://x.com/karpathy/status/1840137252686704925) ，[source2](https://mp.weixin.qq.com/s/1hqyb8SFBNVzrMkG8X1QEw) ，[source3](https://x.com/perplexity_ai/status/1834672028982690298) 。
 
 > [CSS 在文字链接悬停时显示图片](https://geek-docs.com/css/css-ask-answer/59_css_display_image_on_text_link_hover_css_only.html#:~:text=CSS%E7%9A%84:h)。   20240929
