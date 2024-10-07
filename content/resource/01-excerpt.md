@@ -4,6 +4,10 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
+> 误区定式，误区，用未知的信息，去计算达成目标的困难，定式，将行动局限在想象之中。结构化拆解问题的能力，问题拆解，消除未知，成本风险，步骤分解。结构化拆解问题，通过信息进行成本风险的测算，然后分步执行。[source](https://www.bilibili.com/video/BV1mE11YtEzZ/?spm_id_from=333.1365.list.card_archive.click&vd_source=174b189b0a6353093f9f16b62575a061)。  1007
+
+> [宵宫声音模型](https://www.bilibili.com/video/BV1Sj421Z7bp/?spm_id_from=333.999.0.0&vd_source=174b189b0a6353093f9f16b62575a061)，[GPT-SoVITS](https://www.bilibili.com/video/BV12g4y1m7Uw/?spm_id_from=333.788.video.desc.click&vd_source=174b189b0a6353093f9f16b62575a061)，[项目地址](https://www.bilibili.com/video/BV12g4y1m7Uw/?spm_id_from=333.788.video.desc.click&vd_source=174b189b0a6353093f9f16b62575a061)。   1007
+
 > 词曲版权，录音版权。歌曲的界面可以看到 OP（Original Publisher 原版权管理方）和 SP（Sub Publisher 代理版权公司）。[苏打绿为什么要重录专辑？一个视频让你搞懂音乐版权](https://www.bilibili.com/video/BV1Ds4y1n74K/?spm_id_from=333.999.0.0&vd_source=174b189b0a6353093f9f16b62575a061)。    
 > 
 > 从小学时候就开始听苏打绿，后面开始听其他的歌之后就听得比较少了，但现在一听还是很喜欢，词曲旋律。

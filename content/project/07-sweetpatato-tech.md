@@ -1,7 +1,7 @@
 +++
 title = "大番薯项目技术实现"
 date = 2024-09-30
-updated = 2024-09-30
+updated = 2024-10-07
 
 +++
 
@@ -19,7 +19,103 @@ updated = 2024-09-30
 
 ## python 库
 
-[pyautogui](https://pypi.org/project/PyAutoGUI/)
+[PyAutoGui](https://pypi.org/project/PyAutoGUI/)
+
+[PyAutoGui 中文文档](https://github.com/asweigart/pyautogui/blob/master/docs/simplified-chinese.ipynb)内已经有非常详尽的使用说明了，只要确定使用流程即可。
+
+```
+# 点击参数
+pyautogui.click(x=moveToX, y=moveToY, clicks=num_of_clicks, interval=secs_between_clicks, button='left')
+
+# 打印所有键盘参数
+# print(pyautogui.KEYBOARD_KEYS)
+
+# 查看屏幕大小
+# pyautogui.position()
+# screenWidth, screenHeight = pyautogui.size()
+# print("width: ", screenWidth, "height: ", screenHeight)
+
+# 查看鼠标位置
+# print('Press Ctrl-C to quit')
+# try:
+#     while True:
+#         x, y = pyautogui.position()
+#         positionStr = 'X: {} Y: {}'.format(*[str(x).rjust(4) for x in [x, y]])
+#         print(positionStr, end='')
+#         print('\b' * len(positionStr), end='', flush=True)
+# except KeyboardInterrupt:
+#     print('\n')
+
+# print(pyautogui.KEYBOARD_KEYS)
+
+# 操作鼠标进行聊天
+import pyautogui
+
+pyautogui.moveTo(3146, 2098, duration=2)
+pyautogui.leftClick()
+pyautogui.moveTo(3052, 1843, duration=2)
+pyautogui.leftClick()
+for i in range(10):
+    print("第", i+1, "次开始")
+    pyautogui.moveTo(142, 1158, duration=2)#阿皮
+    pyautogui.doubleClick()
+    pyautogui.moveTo(1661, 1169, duration=1)#右击聊天框
+    pyautogui.leftClick()
+    # pyautogui.moveTo(1808, 1345, duration=2)#点击粘贴
+    # pyautogui.leftClick()
+    pyautogui.hotkey('ctrl', 'v')#通过键盘粘贴
+    pyautogui.typewrite('Hello ', interval=0.25)
+    if i == 5:
+        pyautogui.press('num5')
+    elif i == 6:
+        pyautogui.press('num6')
+    elif i == 7:
+        pyautogui.press('num7')
+    pyautogui.typewrite(' world!', interval=0.25)
+    pyautogui.moveTo(2479, 1753, duration=1)#点击发送
+    pyautogui.leftClick()
+    pyautogui.moveTo(2618, 252, duration=2)#点击关闭
+    pyautogui.leftClick()
+    pyautogui.moveTo(124, 1309, duration=2)#杂良丸
+    pyautogui.doubleClick()
+    pyautogui.moveTo(1661, 1169, duration=1)#右击聊天框
+    pyautogui.leftClick()
+    # pyautogui.moveTo(1808, 1345, duration=2)#点击粘贴
+    # pyautogui.leftClick()
+    pyautogui.hotkey('ctrl', 'v')#通过键盘粘贴
+    pyautogui.typewrite('Hello ', interval=0.25)
+    if i == 5:
+        pyautogui.press('num5')
+    elif i == 6:
+        pyautogui.press('num6')
+    elif i == 7:
+        pyautogui.press('num7')
+    pyautogui.typewrite(' world!', interval=0.25)
+    pyautogui.moveTo(2479, 1753, duration=1)#点击发送
+    pyautogui.leftClick()
+    pyautogui.moveTo(2618, 252, duration=2)#点击关闭
+    pyautogui.leftClick()
+    print("第", i+1, "次结束")
+
+```
+
+button7location = pyautogui.locateOnScreen('1.png')
+
+图片定位的功能不太好用
+
+[排错](https://blog.csdn.net/m0_53911267/article/details/134731286#:~:text=PyAuto)
+
+查看 pip 安装包的版本
+
+pip list | findstr PyScreeze
+
+[source](https://blog.csdn.net/PSpiritV/article/details/123244634#:~:text=%E4%B8%80%E3%80%81%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B)
+
+安装指定版本的包
+
+pip install package==version
+
+[source](https://blog.csdn.net/weixin_43289135/article/details/120097579)
 
 ## Windows API
 
