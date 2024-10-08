@@ -4,6 +4,24 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
+> 对信息要敏感，要抓住、理解重要信息，虽然往往是后来才知道这是一个重要的信息，但是要尽力去抓到很多信息，然后理解信息，然后知道现在世界在什么状态。最近的牛市，和错过 18 号 E 大的消费车有感，感觉 E 的很多微博和公众号内容还没有理解透。[18 号发车+致敬信号](https://mp.weixin.qq.com/s/cKMZfYi80F_A3l0iTWtJCA)、[涨起来之后关于踏空的分享](https://www.weibo.com/7519797263/OyTKP2JXL?pagetype=profilefeed)、[18号买入后的分享](https://www.weibo.com/7519797263/Oxyo6FfHn?pagetype=profilefeed)。  1008
+
+> 用被动收入作为日常开销，用工作收入作为投资增值，这个想法还是第一次听说，不过感觉也挺有意思的。[source](https://mp.weixin.qq.com/s/rR-UeHcQWD5Q7QQ-qg6bPQ)、[source](https://mp.weixin.qq.com/s/QpLHBkCVR8uDPpqU19GDJA)。  1008
+>
+> “如果我们用工作来支付生活，用投资来致富，那么我们每年可以花的钱就是 6 万，没有上涨的空间。虽然投资会增值，但我们还是讨厌工作，还是会焦虑失业，还是会痛苦工资怎么还不涨……但如果反过来呢，我有一笔 60 万的投资，每年从里面支取 10% 的收益来支付生活。然后我工作赚的钱全都用来投资，通过工作而不是投资来让本金增值。”
+>
+> “而改变还远远不止生活，还有我们对工作的态度：当我们用工作支付生活，用投资复利来增值时，工作的动机是「维持」收入。我们会觉得自己是在被迫工作。如果收入不增加，我们会对工作充满怨气，但为生活所迫又不敢停下。而当我们用被动收入支付生活，用工作来增值呢？工作的动机变成了「提升」收入。不工作不会影响生活，而工作却能让收入越来越高。我们更容易从工作中获得价值感，会更加享受工作的过程，因为这是我们自己的选择。”
+>
+> 学习如何获取稳定的被动收入，是必要的，但从工作中获取收入去填充投资池子，是年轻时候更为重要的，因为本金小的时候，10w翻倍，也只是10w，而工作上努力升职，可能每年都能多收10w。
+>
+> 但学习通过被动收入去获得自由，这路上的一些想法，也能帮助改善或塑造自己的生活观念。也大[公众号](https://mp.weixin.qq.com/s/QpLHBkCVR8uDPpqU19GDJA)里面还是有很多有价值的内容的。
+>
+> 像现在我的思考和要做的一件事是，计算出目前，我的一年必需开销是多少，在保证基本生活和基本娱乐的情况下。然后是如何自由职业获取一份收入，这是更为重要的，解决这个问题，无限游戏就能继续了。另外是安全垫、保险的问题。
+
+> 基于CNN卷积神经网络的[验证码识别](https://github.com/Hsury/Bilibili-Toolkit)由Hsury提供，source：JiJiDown的鸣谢页面。  1008
+
+> [Firecrawl](https://www.firecrawl.dev/) 能够抓取任何网站的所有可访问子页面，无需站点地图。收费项目，非开源。[项目地址](https://github.com/mendableai/firecrawl)、[source](https://xiaohu.ai/p/6294)。  1007
+
 > 误区定式，误区，用未知的信息，去计算达成目标的困难，定式，将行动局限在想象之中。结构化拆解问题的能力，问题拆解，消除未知，成本风险，步骤分解。结构化拆解问题，通过信息进行成本风险的测算，然后分步执行。[source](https://www.bilibili.com/video/BV1mE11YtEzZ/?spm_id_from=333.1365.list.card_archive.click&vd_source=174b189b0a6353093f9f16b62575a061)。  1007
 
 > [宵宫声音模型](https://www.bilibili.com/video/BV1Sj421Z7bp/?spm_id_from=333.999.0.0&vd_source=174b189b0a6353093f9f16b62575a061)，[GPT-SoVITS](https://www.bilibili.com/video/BV12g4y1m7Uw/?spm_id_from=333.788.video.desc.click&vd_source=174b189b0a6353093f9f16b62575a061)，[项目地址](https://www.bilibili.com/video/BV12g4y1m7Uw/?spm_id_from=333.788.video.desc.click&vd_source=174b189b0a6353093f9f16b62575a061)。   1007
