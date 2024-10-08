@@ -4,6 +4,9 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
+> 很喜欢的一套星际穿越的海报，通过 reddit 和 amazon 找到相对比较清晰的图片。画师是 [Kevin Dart](https://www.instagram.com/kevinzilla2000/)。[reddit](https://www.reddit.com/r/interstellar/comments/15wyl6w/anyone_here_got_the_full_resolution_interstellar/)、[imdb](https://m.imdb.com/title/tt0816692/mediaviewer/rm1672345856/)、[amazon1](https://m.media-amazon.com/images/M/MV5BMTQ1MTM4Nj…l5BanBnXkFtZTgwNTIwMDI1MzE@._V1_FMjpg_UY7200_.jpg)、[x](https://x.com/PlatonGhoulRE/status/1704553665124499564)、[imgur](https://imgur.com/gallery/little-interstellar-collection-gvODf8O)、[ins](https://www.instagram.com/p/vy2pwhRfTx/)。  1008
+
+
 > 对信息要敏感，要抓住、理解重要信息，虽然往往是后来才知道这是一个重要的信息，但是要尽力去抓到很多信息，然后理解信息，然后知道现在世界在什么状态。最近的牛市，和错过 18 号 E 大的消费车有感，感觉 E 的很多微博和公众号内容还没有理解透。[18 号发车+致敬信号](https://mp.weixin.qq.com/s/cKMZfYi80F_A3l0iTWtJCA)、[涨起来之后关于踏空的分享](https://www.weibo.com/7519797263/OyTKP2JXL?pagetype=profilefeed)、[18号买入后的分享](https://www.weibo.com/7519797263/Oxyo6FfHn?pagetype=profilefeed)。  1008
 
 > 用被动收入作为日常开销，用工作收入作为投资增值，这个想法还是第一次听说，不过感觉也挺有意思的。[source](https://mp.weixin.qq.com/s/rR-UeHcQWD5Q7QQ-qg6bPQ)、[source](https://mp.weixin.qq.com/s/QpLHBkCVR8uDPpqU19GDJA)。  1008
