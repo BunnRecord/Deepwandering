@@ -5,6 +5,10 @@ updated = 2024-09-30
 
 +++
 
+### 使用 PyAutoGUI 时模拟鼠标点击没有反应
+
+在点击 JiJiDown 时出现的问题。用管理员模式运行 power shell，然后运行 Python 文件即可解决。[参考](https://blog.csdn.net/Owen_goodman/article/details/112269066#:~:text=%E5%9C%A8Pycha)
+
 ### 使用 GPT-SoVITS 转换英文时报错
 
 错误信息

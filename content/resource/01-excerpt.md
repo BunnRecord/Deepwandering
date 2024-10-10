@@ -4,6 +4,11 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
+> Levels.fyi 开发了一个可交互式的薪资热力图，点击进入某个地区，就可以了解该地主要公司的薪资百分位数、总薪酬组成部分的详细信息以及公司薪酬排序介绍等内容。你还可以点击公司的详细页面，查看该公司内部的职级分布和对应的薪水等更加详细的内容（图2）。该热力图对不同行政区域用虚线进行了分割。[source](https://www.weibo.com/6105753431/OASN1nap6?pagetype=groupfeed)
+>
+> 感觉这个[项目](https://www.levels.fyi/heatmap/?continueFlag=2652d9a73d7126c7d6b332a9826d7322)很有意思，对好食项目有参考价值，首先把数据收集起来，然后可视化展示，以后的更多想做的东西都可以放在上面。 1010
+
+
 > 很喜欢的一套星际穿越的海报，通过 reddit 和 amazon 找到相对比较清晰的图片。画师是 [Kevin Dart](https://www.instagram.com/kevinzilla2000/)。[reddit](https://www.reddit.com/r/interstellar/comments/15wyl6w/anyone_here_got_the_full_resolution_interstellar/)、[imdb](https://m.imdb.com/title/tt0816692/mediaviewer/rm1672345856/)、[amazon1](https://m.media-amazon.com/images/M/MV5BMTQ1MTM4Nj…l5BanBnXkFtZTgwNTIwMDI1MzE@._V1_FMjpg_UY7200_.jpg)、[x](https://x.com/PlatonGhoulRE/status/1704553665124499564)、[imgur](https://imgur.com/gallery/little-interstellar-collection-gvODf8O)、[ins](https://www.instagram.com/p/vy2pwhRfTx/)。  1008
 
 
