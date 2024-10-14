@@ -4,6 +4,32 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
+> 《深入理解Linux内核》，内存分配，内存管理，编译链接。
+
+> 当某个产品正好符合了市场的需求，并且能够被市场消费，那是Product-Market Fit（PMF）
+> [PMF](https://zhuanlan.zhihu.com/p/673733904)
+>
+> “我认为我的一大优势是，我期望值很低。我认为大多数斯坦福毕业生期望值很高。
+> 期望值很高的人通常韧性很低。不幸的是，韧性在成功中很重要。我不知道如何教你们，除了我希望痛苦发生在你们身上。”
+> [黄仁勋](https://zhuanlan.zhihu.com/p/687513078)
+> [黄仁勋](https://www.bilibili.com/video/BV15S421w7pd/?spm_id_from=333.337.search-card.all.click&vd_source=174b189b0a6353093f9f16b62575a061)
+>
+> Corner Case是指罕见但可能导致危险的异常情况。
+
+> 太爽了，想要。[电子工作间](https://www.bilibili.com/video/BV1eG411p7HE/?spm_id_from=333.788&vd_source=174b189b0a6353093f9f16b62575a061)、[木工坊](https://www.bilibili.com/video/BV1NZ4y1F7AN/?spm_id_from=333.788&vd_source=174b189b0a6353093f9f16b62575a061)
+>
+> 讲道理，有了这些设备，什么都可以造出来了吧。具体有哪些设备可以列个单。  1014
+
+> 分享 GitHub 上一份收录独立开发/出海开发相关技术栈及工具。[awesome-indie-hacker-tools](github.com/iAmCorey/awesome-indie-hacker-tools)
+>
+> 分享一份整理了颇多关于 DevOps 的学习资源列表：DevOps-Guide。[DevOps-Guide](github.com/Tikam02/DevOps-Guide)
+> 
+> GitHubDaily 2023 年在微博所分享的开源项目。[GitHubDaily](github.com/GitHubDaily/GitHubDaily)
+
+> Hinton [家族图谱](https://zhuanlan.zhihu.com/p/22405961)
+
+> #情绪价值 #大学生就业指南 #新需求 Doge [source](https://mp.weixin.qq.com/s/FXe7tC-J0laDUknPTyc_nA)
+
 > Levels.fyi 开发了一个可交互式的薪资热力图，点击进入某个地区，就可以了解该地主要公司的薪资百分位数、总薪酬组成部分的详细信息以及公司薪酬排序介绍等内容。你还可以点击公司的详细页面，查看该公司内部的职级分布和对应的薪水等更加详细的内容（图2）。该热力图对不同行政区域用虚线进行了分割。[source](https://www.weibo.com/6105753431/OASN1nap6?pagetype=groupfeed)
 >
 > 感觉这个[项目](https://www.levels.fyi/heatmap/?continueFlag=2652d9a73d7126c7d6b332a9826d7322)很有意思，对好食项目有参考价值，首先把数据收集起来，然后可视化展示，以后的更多想做的东西都可以放在上面。 1010

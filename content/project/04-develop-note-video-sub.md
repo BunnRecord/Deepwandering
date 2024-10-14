@@ -4,6 +4,19 @@ date = 2024-09-12
 updated = 2024-09-13
 +++
 
+## 运行
+
+运行程序
+
+运行图形化界面版本(GUI)
+
+python gui.py
+
+运行命令行版本(CLI)
+
+python ./backend/main.py
+
+
 后面可能需要提取一些视频文案，刚好前几天看到一个推荐对视频字幕进行操作的几个仓库（ 字幕生成 [Video Subtitle Generator](https://github.com/YaoFANGUK/video-subtitle-generator)、字幕提取 [Video Subtitle Extractor](https://github.com/YaoFANGUK/video-subtitle-extractor)、字幕去除 [Video Subtitle Remover](https://github.com/YaoFANGUK/video-subtitle-remover/tree/main)），这两天部署了下，踩了些坑，记录一下解决方法。
 
 首先按照 [仓库](https://github.com/YaoFANGUK/video-subtitle-generator) 的 readme 文件去进行 下载安装 Miniconda、创建并激活虚机环境、安装依赖文件，这几步都没遇到什么问题。
