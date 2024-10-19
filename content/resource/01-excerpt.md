@@ -4,7 +4,9 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
-> 《深入理解Linux内核》，内存分配，内存管理，编译链接。
+> ADHD [source1](https://www.bilibili.com/video/BV1izyTYvEdN/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=19aca668850b8d744b996e0c9f666e09)[source2](https://www.bilibili.com/video/BV117421f7Nh/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)
+
+> 《深入理解Linux内核》，内存分配，内存管理，编译链接。[source](https://www.bilibili.com/video/BV14A411R7ar/?spm_id_from=333.999.0.0)
 
 > 当某个产品正好符合了市场的需求，并且能够被市场消费，那是Product-Market Fit（PMF）
 > [PMF](https://zhuanlan.zhihu.com/p/673733904)
@@ -15,6 +17,9 @@ updated = 2024-09-29
 > [黄仁勋](https://www.bilibili.com/video/BV15S421w7pd/?spm_id_from=333.337.search-card.all.click&vd_source=174b189b0a6353093f9f16b62575a061)
 >
 > Corner Case是指罕见但可能导致危险的异常情况。
+>
+> [source1](https://www.xiaoyuzhoufm.com/episode/66ee95306920a36bfc9f1de1)
+> [source2](https://www.xiaoyuzhoufm.com/episode/6505cb5496875579717a1369)
 
 > 太爽了，想要。[电子工作间](https://www.bilibili.com/video/BV1eG411p7HE/?spm_id_from=333.788&vd_source=174b189b0a6353093f9f16b62575a061)、[木工坊](https://www.bilibili.com/video/BV1NZ4y1F7AN/?spm_id_from=333.788&vd_source=174b189b0a6353093f9f16b62575a061)
 >

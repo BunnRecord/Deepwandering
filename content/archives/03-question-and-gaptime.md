@@ -1,7 +1,7 @@
 +++
 title = "想知道答案的问题和放空阶段"
 date = 2024-09-11
-updated = 2024-09-11
+updated = 2024-10-19
 +++
 
 ### 想知道答案的问题
@@ -15,6 +15,8 @@ updated = 2024-09-11
 > 以后的小朋友应该怎么学习，或是用什么方式认识这个世界，需要培养什么技能，需要什么教材？[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。    20240911
 
 > 大模型像个大脑，大脑现在能力到什么程度了？向上，大模型怎么接入知识库，接入一个什么样的知识库，现在调取知识库的能力到什么程度了？向下，大模型现在可以利用什么工具了，agent可以完成什么工作了？[source1](https://www.bilibili.com/video/BV1MY4y1R7EN/?spm_id_from=333.999.0.0&vd_source=19aca668850b8d744b996e0c9f666e09)，[source2](https://www.bilibili.com/video/BV1uu4y1m7ak/?spm_id_from=333.880.my_history.page.click)。   20240911
+
+> 喜欢是怎么产生的，喜欢某个作品，喜欢某件事，喜欢某个人。  1019
 
 ### 放空阶段
 

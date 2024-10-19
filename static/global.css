@@ -393,9 +393,14 @@ mark {
   width: 40%;
   height: auto;
 }
+.image-container1 img {
+  width: 100%;
+  height: auto;
+}
 
 .image-caption {
   font-style: italic;
   color: #666;
   margin-top: 5px;
+  text-align: center;
 }
