@@ -4,7 +4,39 @@ date = 2024-08-30
 updated = 2024-09-29
 +++
 
-> ADHD [source1](https://www.bilibili.com/video/BV1izyTYvEdN/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=19aca668850b8d744b996e0c9f666e09)[source2](https://www.bilibili.com/video/BV117421f7Nh/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)
+> 示例
+
+> 视频截取 GIF ：potplayer > 视频 > 视频录制 > 录制视频 > 文件格式 GIF
+>
+> [在线GIF切割](https://online-video-cutter.com/cn/trim-gif)
+> [在线MP4转GIF](https://www.aconvert.com/cn/video/mp4-to-gif/)
+> GIF 压缩，使用 Microsoft Clipchamp  1101
+
+> 品城记[曾老板](https://cm.gdhsc.edu.cn/info/1011/1084.htm?share_token=7e79ef74-262d-4ed5-942d-b58f8cde5ca1&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share)
+
+> [深势科技](https://mp.weixin.qq.com/s/Cm50JdG2nbDt0tI7ELni7w)
+
+> 国外开发者 Simon Willison 花一周时间用 Claude 的 Artifacts 功能，一口气做了14个小程序 [source](https://www.weibo.com/6105753431/OD1Za3EMd?pagetype=groupfeed)
+
+> 【AI手机，干掉App？】 https://www.bilibili.com/video/BV1ifyfYCEKo/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c
+
+> 昨晚一直在听一个播客《小心地滑》，然后还在即刻看了主播的一系列内容，感觉挺有意思的。
+> 比较喜欢的几期，047、[038](https://www.xiaoyuzhoufm.com/episode/65903d2fcab6086ec1847593)、035、030。
+> 即刻上也有有意思的内容，像 [The Last of Us](https://m.okjike.com/originalPosts/65c1d58a164d89e601526acf?s=eyJ1IjoiNjJhYTU1MzdkMzIyNWQwMDEwZDBmNzYxIiwiZCI6MX0%3D)，去香港看奥本海默，很熟悉的感觉，还有很多和播客相关的东西。
+> 不过有一种感觉，自己对特别深入的概念没啥想法，想轻松一点。
+> 
+> 想提升英文水平到可以听英文播客和看英文影视不用字幕的程度。
+
+
+> “我喜欢人类。”
+>
+> 对人形机器人的偏爱，受「星球大战」影响很深，而且相信AI在个性上的细微瑕疵，会让它变得足够特别，每个人都拥有一个不可思议的同伴，不是全知全能的那种，而是带有和每个人相处之后形成的不完美，比如为了一些蠢问题互相争论，就像R2-D2、C-3PO那样。
+> 希望年轻人过上「有用的生活」，对环境的净贡献大于净消费，坚持大量读书，扩大兴趣边界，不然你可能到死都不知道自己真正对什么感兴趣，多阅读，多尝试，多和不同于自己的人交往，直到发现和你的才能相匹配的事业，然后，干就完事儿了。
+> [source1](https://www.weibo.com/1560906700/OCrmmhbq6?pagetype=profilefeed)、[source2](https://www.bilibili.com/video/BV1YM4y1v7kz/?vd_source=174b189b0a6353093f9f16b62575a061)  1020
+
+> 金价持续涨。
+
+> ADHD [source1](https://www.bilibili.com/video/BV1izyTYvEdN/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=19aca668850b8d744b996e0c9f666e09)[source2](https://www.bilibili.com/video/BV117421f7Nh/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)  1019
 
 > 《深入理解Linux内核》，内存分配，内存管理，编译链接。[source](https://www.bilibili.com/video/BV14A411R7ar/?spm_id_from=333.999.0.0)
 
@@ -17,6 +49,8 @@ updated = 2024-09-29
 > [黄仁勋](https://www.bilibili.com/video/BV15S421w7pd/?spm_id_from=333.337.search-card.all.click&vd_source=174b189b0a6353093f9f16b62575a061)
 >
 > Corner Case是指罕见但可能导致危险的异常情况。
+>
+> 守破离
 >
 > [source1](https://www.xiaoyuzhoufm.com/episode/66ee95306920a36bfc9f1de1)
 > [source2](https://www.xiaoyuzhoufm.com/episode/6505cb5496875579717a1369)
