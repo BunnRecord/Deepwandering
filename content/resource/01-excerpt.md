@@ -6,11 +6,19 @@ updated = 2024-09-29
 
 > 示例
 
+> 分享一个在线电影拉片工具【Movieminer】：[网页链接](http://www.movieminer.top/?continueFlag=2769cfde1e73e5c41a0d478417730f30)，目前收录了 1049 部电影、5 万多个镜头和 150 多万个截图。
+> 网站提供“一键拉片”功能，可以直接从站内导入现有的电影资源进行在线拉片，导入后电影会被拆解为一个个连续的小镜头，
+> 并附有镜头内容简介，可以勾选单个或多个镜头进行详细拉片。另外还有一个“搜索镜头”功能，可以按关键词搜索指定的场景、情节、角色、动作、表情等，对于找寻找绘画或设计参考来说非常方便。
+>
+> Movie Screencap：[网页链接](https://screenmusings.org/color/?continueFlag=2769cfde1e73e5c41a0d478417730f30)，这个网站有很多不错的电影截图，色彩、构图都选的比较好。关键是，每一张截图的配色，它都会帮你列出来，还分不同色系。
+> 1110
+
 > 视频截取 GIF ：potplayer > 视频 > 视频录制 > 录制视频 > 文件格式 GIF
 >
-> [在线GIF切割](https://online-video-cutter.com/cn/trim-gif)
-> [在线MP4转GIF](https://www.aconvert.com/cn/video/mp4-to-gif/)
-> GIF 压缩，使用 Microsoft Clipchamp  1101
+> [在线GIF切割](https://online-video-cutter.com/cn/trim-gif)、
+> [在线MP4转GIF](https://www.aconvert.com/cn/video/mp4-to-gif/)、
+> GIF 压缩，使用 Microsoft Clipchamp  
+> 1101
 
 > 品城记[曾老板](https://cm.gdhsc.edu.cn/info/1011/1084.htm?share_token=7e79ef74-262d-4ed5-942d-b58f8cde5ca1&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share)
 
