@@ -44,7 +44,7 @@ updated = 2024-09-29
 
 > 金价持续涨。
 
-> ADHD [source1](https://www.bilibili.com/video/BV1izyTYvEdN/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=19aca668850b8d744b996e0c9f666e09)[source2](https://www.bilibili.com/video/BV117421f7Nh/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)  1019
+> ADHD [source1](https://www.bilibili.com/video/BV1izyTYvEdN/?spm_id_from=333.1007.tianma.4-2-12.click&vd_source=19aca668850b8d744b996e0c9f666e09)、[source2](https://www.bilibili.com/video/BV117421f7Nh/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)  1019
 
 > 《深入理解Linux内核》，内存分配，内存管理，编译链接。[source](https://www.bilibili.com/video/BV14A411R7ar/?spm_id_from=333.999.0.0)
 

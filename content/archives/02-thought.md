@@ -4,6 +4,8 @@ date = 2024-08-31
 updated = 2024-09-30
 +++
 
+> 把十年的观影记录整理出来的感觉是，这十年，也看了很多好电影啊。[豆瓣相册](https://www.douban.com/photos/album/1925333562/?m_start=0)   1113
+
 > How about disappear for a year or two.    1111
 
 > 在思考我的博客不能什么东西都放上来，有价值的再放上来，一些平时的记录应该放在本地。  1010
