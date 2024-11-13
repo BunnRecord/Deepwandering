@@ -6,6 +6,41 @@ updated = 2024-09-29
 
 > 示例
 
+> 想学习大语言模型(LLM)，应该从哪个开源模型开始？
+> 
+> [知乎问答](https://www.zhihu.com/question/608820310/answer/3401824221)
+> 
+> [博客](https://www.cnblogs.com/justLittleStar/p/17845341.html)
+>
+> [知乎问答](https://www.zhihu.com/question/608820310/answer/3110733292)
+> 
+> [这个图画得好好看](https://github.com/chaoswork/llm_illustrated)
+>
+> [看图学](https://www.zhihu.com/people/aaron-73-65)
+>
+> [看图学](https://mp.weixin.qq.com/s?__biz=MzUyOTA5OTcwMg==&mid=2247486519&idx=1&sn=f2fb50c81f01aa1cbe2d5b16a844eed7&chksm=fa6772eecd10fbf8302dbbab30e19450c638df26c1944ad386b92e1e6c6ce486e4529000b29e&token=1133549868&lang=zh_CN#rd)
+> 
+> Base64编码有何用处?
+> 
+> [知乎问答](https://www.zhihu.com/question/514750005)
+> 
+
+> [独家专访李子柒：归来依旧热爱](https://www.bilibili.com/video/BV1DnUKYYEkj/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)
+
+> 张铎。
+> 
+> [小米成立AI平台部，任命张铎为AI平台负责人](https://www.weibo.com/1642634100/P06XKcgxd?pagetype=profilefeed)
+> 
+> 被政委警告了，价值观不对，试用期要挂了[笑cry]所以有啥事都可以喷我，我来转达[允悲]//@Apache9:我这只管基建啊，买卡搭集群，架RDMA网络，训练和推理框架优化调度优化，Agent和RAG，只搞这些，大模型有专门的算法团队用我搭的集群训。小爱，手机AIOS，自动驾驶都是我的甲方，他们出问题了别喷我。被政委警告了，价值观不对，试用期要挂了[笑cry]所以有啥事都可以喷我，我来转达[允悲]。现在用什么卡做？这不能说，你懂的[doge]但反正国产卡我们也都在测了。了解了[doge]。[小米成立AI平台部，恭喜铎神归位[哇] ​​​](https://www.weibo.com/6202265538/P07pI1r4W#comment)
+> 
+> [被政委警告了，价值观不对，试用期要挂了[笑cry]](https://www.weibo.com/1876829375/P08Hbl58E?pagetype=profilefeed)
+> 
+> [喜欢写代码、讨厌内卷：一个37岁中年程序员的开源故事](https://www.36kr.com/p/1458851213132544)
+> 
+> [关于离职的一些复盘](https://zhuanlan.zhihu.com/p/361185657)
+>
+> 
+
 > 分享一个在线电影拉片工具【Movieminer】：[网页链接](http://www.movieminer.top/?continueFlag=2769cfde1e73e5c41a0d478417730f30)，目前收录了 1049 部电影、5 万多个镜头和 150 多万个截图。
 > 网站提供“一键拉片”功能，可以直接从站内导入现有的电影资源进行在线拉片，导入后电影会被拆解为一个个连续的小镜头，
 > 并附有镜头内容简介，可以勾选单个或多个镜头进行详细拉片。另外还有一个“搜索镜头”功能，可以按关键词搜索指定的场景、情节、角色、动作、表情等，对于找寻找绘画或设计参考来说非常方便。
@@ -26,7 +61,7 @@ updated = 2024-09-29
 
 > 国外开发者 Simon Willison 花一周时间用 Claude 的 Artifacts 功能，一口气做了14个小程序 [source](https://www.weibo.com/6105753431/OD1Za3EMd?pagetype=groupfeed)
 
-> 【AI手机，干掉App？】 https://www.bilibili.com/video/BV1ifyfYCEKo/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c
+> [AI手机，干掉App？](https://www.bilibili.com/video/BV1ifyfYCEKo/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)
 
 > 昨晚一直在听一个播客《小心地滑》，然后还在即刻看了主播的一系列内容，感觉挺有意思的。
 > 比较喜欢的几期，047、[038](https://www.xiaoyuzhoufm.com/episode/65903d2fcab6086ec1847593)、035、030。
@@ -34,6 +69,8 @@ updated = 2024-09-29
 > 不过有一种感觉，自己对特别深入的概念没啥想法，想轻松一点。
 > 
 > 想提升英文水平到可以听英文播客和看英文影视不用字幕的程度。
+>
+> 后来听新一期播客，感觉跑调好像对日语也挺熟悉。难道她是中日英三语熟练听说选手？！很羡慕这些懂几种语言的人！！虽然现在可能实时同传得 AI 工具可能已经有了，但是人配备这种自然的技能还是很厉害的！！想变成这样的人！！先从提升英语听说读写熟练度开始吧！！
 
 
 > “我喜欢人类。”
