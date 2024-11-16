@@ -6,6 +6,35 @@ updated = 2024-09-29
 
 > 示例
 
+
+> [油画AI绘图](https://weibo.com/1757693565/5028638519462665)
+> 
+> 最近比较满意的一个转绘，终于用上自己的工作流了！（对，还是之前那个）
+> 
+> 已经上传C站，[随便下载随便玩](civitai.com/models/413936)。
+>
+> [作品登上东京的大屏啦！！](https://www.weibo.com/1757693565/P0qHjzWx1?pagetype=groupfeed)
+
+> 苹果的统一内存真的能帮助本地化大模型吗？想买个 mac studio 来试试。但是木有钱哈哈。
+>
+> [100B以内开源大模型个人可用了。](https://www.weibo.com/1219795431/P0dRKzifm?pagetype=profilefeed)
+> 
+> 同时想买 vision pro 
+> 
+> 理论上 vision pro 加上某些精细控制部分压力的触感手套，是不是就可以模拟到摸到任何东西？只要建立好视觉模型和触感反馈。
+>
+> 附图头号玩家。
+> <figure class="image-container">
+>   <img src="/resource/01-excerpt2.png" alt="触感手套" />
+>   <figcaption class="image-caption">触感手套</figcaption>
+> </figure>
+> <figure class="image-container">
+>   <img src="/resource/01-excerpt3.png" alt="visionpro的物体建模" />
+>   <figcaption class="image-caption">vision pro 的物体建模</figcaption>
+> </figure>
+>
+> 1114
+
 > 想学习大语言模型(LLM)，应该从哪个开源模型开始？
 > 
 > [知乎问答](https://www.zhihu.com/question/608820310/answer/3401824221)
@@ -23,7 +52,8 @@ updated = 2024-09-29
 > Base64编码有何用处?
 > 
 > [知乎问答](https://www.zhihu.com/question/514750005)
-> 
+>
+> 1113
 
 > [独家专访李子柒：归来依旧热爱](https://www.bilibili.com/video/BV1DnUKYYEkj/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)
 
