@@ -1,9 +1,10 @@
 +++
 title = "资源列表"
 date = 2024-08-31
-updated = 2024-10-18
+updated = 2024-11-19
 +++
 
+- [播客 - 知行小酒馆 - 对话半佛仙人](/resource/10-podcast-zhixingxiaojiuguan-2/)    20241119
 - [书籍 - 千脑智能](/resource/09-book-a-thousand-brains/)    20241018
 - [影视 - 最后生还者1制作特辑](/resource/08-film-grounded-making-the-last-of-us/)    20241017
 - [影视 - 最后生还者2制作特辑](/resource/07-film-grounded2-making-the-last-of-us-part-2/)    20241016

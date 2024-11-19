@@ -18,6 +18,7 @@ updated = 2024-10-01
 - [LLM](/wandering/01-llm/)     20240912
 
 ## 3.资源
+- [播客 - 知行小酒馆 - 对话半佛仙人](/resource/10-podcast-zhixingxiaojiuguan-2/)    20241119
 - [书籍 - 千脑智能](/resource/09-book-a-thousand-brains/)    20241018
 - [影视 - 最后生还者1制作特辑](/resource/08-film-grounded-making-the-last-of-us/)    20241017
 - [影视 - 最后生还者2制作特辑](/resource/07-film-grounded2-making-the-last-of-us-part-2/)    20241016
