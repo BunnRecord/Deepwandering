@@ -226,6 +226,11 @@ ValueError: check_hostname requires server_hostname
 pip install filesplit==3.0.2
 
 pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install moviepy -i https://mirrors.aliyun.com/pypi/simple/
+pip install moviepy -i https://pypi.doubanio.com/simple/
+pip install moviepy -i https://pypi.mirrors.ustc.edu.cn/simple/
+pip install moviepy -i https://pypi.hustunique.com/simple/
+pip install moviepy -i https://mirrors.163.com/pypi/simple/
 
 nvidia-smi
 
