@@ -6,6 +6,9 @@ updated = 2024-09-29
 
 > 示例
 
+> [HA](https://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md),[如何看待米家官方开源了接入Home Assistant 的集成组件？](https://www.zhihu.com/question/7080069932) 1218
+
+> Gemini [专访谷歌DeepMind CEO Demis Hassabis](https://www.bilibili.com/video/BV1f5BGYvEys/?share_source=copy_web&vd_source=1391c8f8d1aa1c34f279bdb28f57666c)。 1214
 
 > 模型接口使用量，openrouter平台的统计，[网站](https://openrouter.ai/rankings)。 1213
 
